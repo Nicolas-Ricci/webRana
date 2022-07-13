@@ -286,6 +286,14 @@ main{
     grid-area: footer;
 }
 
+/* animaciones, transiciones y transformaciones */
+.transiciones{
+    transition: transform 1s;
+}
+.transiciones:hover{
+    transform: scale(1.5) ;
+}
+
 /* ----media query---- */
 @media screen and (max-width: 768px){
     .contenedor{
