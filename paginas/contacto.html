@@ -1,108 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="../style.css">
-    <title>webRana | contacto</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webRana | home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navBarra">
+            <div class="container">
+              <a class="navbar-brand" href="../index.html">webRana</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sobre_nosotros.html">sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">servicios</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="./nuestro_trabajo.html">nuestro trabajo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
-<body class="contenedor">
-	<header class="header">
-		<a href="/index.html" class="header__logo">
-			<h1>webRana.com</h1>
-		</a>
-	</header>
+	<main class="main mainF container">
+        <div class="text-center">
+            <h1>Como podemos ayudarte?</h1>
+            <h2>envianos un mensaje!</h2>
+        </div>
 
-	<nav class="navbar"> 
-		<ul class="navbar__lista">
-			<li class="navbar__lista__link"><a href="../index.html">home</a></li>
-			<li class="navbar__lista__link"><a href="./sobre_nosotros.html">sobre nosotros</a></li>
-			<li class="navbar__lista__link  subMenu"><a href="./servicios.html" >servicios</a>
-				<ul class="lista__submenu">
-					<li>eCommerce</li>
-					<li>Negocios</li>
-					<li>Entretenimiento</li>
-					<li>Educativo</li>
-				</ul>z
-			</li>	
-			<li class="navbar__lista__link"><a href="./nuestro_trabajo.html">nuestro trabajo</a></li>
-			<li class="navbar__lista__link ultimoIcono"><a href="#">contacto</a></li>	
-		</ul>
-	</nav>
+        <form>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombres y Apellidos">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Correo Electronico</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Gmail / Hotmail / etc">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Mensaje</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Dejanos un mensaje">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary">Reestablecer</button>
+        </form>
 
-	<main class="main mainF">
+        <section class="cuadroMapa contenedorF text-center p-5">
+            <h1>VENGA A CONOCERNOS!</h1>
+            <h3>Av. Comandante Espinar 4556, Miraflores <br> Lima - Peru</h3>
+        </section>
+        
+    </main>
 
 
-			<form class="formulario contenedorF">
-				<h1>Como podemos ayudarte?</h1>
-				<h2>envianos un mensaje!</h2>
-				<div class="cuadroF">
-					<div>
-						<label>Nombre:</label>
-						<input type="text" placeholder="nombre">
-					</div>
-					<div>
-						<label>Apellido:</label>
-						<input type="text" placeholder="apellido">
-					</div>
-					<div>
-						<label for="Email">E-mail:</label>
-						<input type="text" id="Email" placeholder="mail">
-					</div>
-					<div>
-						<label for="Mensaje">Dejanos un Mensaje</label>
-						<input type="Textarea" id="mensaje" placeholder="mensaje">
-					</div>
-					<input type="submit">
-					<input type="reset">								
-				</div>				
 
-			</form>
+    <footer class="footer">
+        <div class="footer__frase">
+            <h2>Siguenos y enterate de todo!</h2>
+        </div>
 
-			<section class="cuadroMapa contenedorF">
-				<h1>VENGA A CONOCERNOS!</h1>
-				<h3>Av. Comandante Espinar 4556, Miraflores <br> Lima - Peru</h3>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.2401193365707!2d-77.03742107079445!3d-12.114856788226918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83c37321fa7%3A0xed9a470e7b6f5ae3!2sAv.%20Comandante%20Espinar%2C%20Miraflores!5e0!3m2!1ses!2spe!4v1655857978305!5m2!1ses!2spe" width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</section>
-			
-	</main>
+        <ul class="footer__lista">
+            <li class="footer__redes">
+                <a href="https://www.facebook.com/mi_pagina" target="_blank">
+                    <img src="../images/facebook_icon.png" alt="icono_facebook">
+                </a>
+            </li>
+            <li class="footer__redes">
+                <a href="https://www.instagram.com/mi_pagina" target="_blank">
+                    <img src="../images/instagram_icon.png" alt="icono_instagram">
+                </a>
+            </li>
+            <li class="footer__redes">
+                <a href="https://www.twitter.com/mi_pagina" target="_blank">
+                    <img src="../images/twitter_icon.png" alt="icono_twitter">
+                </a>
+            </li>
+            <li class="footer__redes">
+                <a href="https://www.linkedin.com/mi_pagina" target="_blank">
+                    <img src="../images/linkedin_icon.png" alt="icono_linkedin">
+                </a>
+            </li>
+        </ul>
 
-	<footer class="footer">
-			<div class="footer__frase">
-				<h2>Siguenos y enterate de todo!</h2>
-			</div>
-	
-			<ul class="footer__lista">
-				<li class="footer__redes">
-					<a href="https://www.facebook.com/mi_pagina" target="_blank">
-						<img src="../images/facebook_icon.png" alt="icono_facebook">
-					</a>
-				</li>
-				<li class="footer__redes">
-					<a href="https://www.instagram.com/mi_pagina" target="_blank">
-						<img src="../images/instagram_icon.png" alt="icono_instagram">
-					</a>
-				</li>
-				<li class="footer__redes">
-					<a href="https://www.twitter.com/mi_pagina" target="_blank">
-						<img src="../images/twitter_icon.png" alt="icono_twitter">
-					</a>
-				</li>
-				<li class="footer__redes">
-					<a href="https://www.linkedin.com/mi_pagina" target="_blank">
-						<img src="../images/linkedin_icon.png" alt="icono_linkedin">
-					</a>
-				</li>
-			</ul>
-	
-			<a href="whatsapp.com" target="_blank">
-				<img src="../images/whatsappContactanos.png" alt="icono_whatsapp" class="whatsappImage transiciones">
-			</a>
-	</footer>	
-</body>
-</html>
+        <a href="whatsapp.com" target="_blank">
+            <img src="../images/whatsappContactanos.png" alt="icono_whatsapp" class="whatsappImage transiciones">
+        </a>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>    
