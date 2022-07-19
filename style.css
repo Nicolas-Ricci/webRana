@@ -1,9 +1,25 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-image: url("./images/fondoWeb.jpg");
+    background-repeat: repeat;
+}
 /* barra de navegacion */
 .navBarra{
     background-color: #231955;
 }
+.collapse{
+    flex-grow: initial;
+}
 .navbar-brand{
+    color: #FFE5B4;
+}
+.navbar-brand:hover{
     color: #FFE5B4;
 }
 .nav-link{
@@ -21,21 +37,18 @@
 .active{
     background-color: #E8AA42
 }
-
-
 /* ----footer---- */
 .footer{
     background-color: #231955;
+    margin-top: 40px;
 }
 .footer__frase{
     color: whitesmoke;
     text-align: center;
 }
-.footer__frase h2{
-    font-size: 20px;
-}
 .footer__lista{
     margin: 0 auto;
+    padding: 0;
     width: fit-content;
 }
 .footer__lista li{
@@ -43,39 +56,47 @@
     display: inline-block;
     margin: 12px;
 }
-.footer__redes a img{
-    width: 30px;   
+.footer__redes a:hover{
+    border-color:#E8AA42;
 }
-
 /* boton whatsapp */
 .whatsappImage{
     height: 60px;
     position: fixed;
     right: 20px;
-    bottom: 15px;
+    bottom: 20px;
 }
-
 /* index */
 .col img{
     width: 100%
 }
-
-/* sobre nosotros */
-.carousel-inner{
-    height: 45rem;
-    margin: 20px;
+.padd{
+    padding: 20px;
 }
+
+.mensajeIndex{
+    padding: 5px;
+    background-color: #231955;
+    color: #E8AA42;
+}
+.mensajeIndex:hover{
+    background-color: #E8AA42;
+    color: #231955;
+}
+/* sobre nosotros */
 .carousel-item img{
     object-fit: cover;
 }
-.w-100{
-    height: 45rem;
+.contenedorVideo{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
 }
 /* servicios */
-.col .transiciones{
-    height: 18rem;
-    width: 19rem;
+.mainServicios{
+    margin-top: 30px;
 }
+
 /* nuestro trabajo */
 .galeria img{
     width: 350px;
@@ -84,4 +105,26 @@
 }
 .galeria img:hover{
     border: solid #E8AA42;
+}
+/* contacto */
+.text-center{
+    margin-top: 30px;
+}
+iframe{
+    display: flex;
+    margin: auto;
+    padding-bottom: 30px;
+}
+/* animaciones */
+.animacion{
+    transition: transform 1s;
+}
+.animacion:hover{
+    transform: scale(1.2) ; 
+}
+.animacionServicios{
+    transition: transform 0.8s;
+}
+.animacionServicios:hover{
+    transform: scale(0.98) ; 
 }
