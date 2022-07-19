@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    padding: 0;    
     font-family: 'Roboto', sans-serif;
     
 }
@@ -99,6 +98,10 @@ body{
 }
 
 /* nuestro trabajo */
+.imagen_centrada{
+    text-align: center;
+}
+
 .galeria img{
     width: 350px;
     height: 17rem;
