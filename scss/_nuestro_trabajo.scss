@@ -1,0 +1,12 @@
+/* nuestro trabajo */
+.imagen_centrada{
+    text-align: center;
+}
+.galeria img{
+    width: 350px;
+    height: 17rem;
+    object-fit: cover;
+    &:hover{
+        border: solid #E8AA42;        
+    }
+}

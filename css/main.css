@@ -1,0 +1,119 @@
+* {
+  margin: o;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  background-image: url(/images/fondoWeb.jpg);
+  background-repeat: repeat; }
+
+/* barra de navegacion */
+.navBarra {
+  background-color: #231955; }
+
+.collapse {
+  flex-grow: initial; }
+
+.navbar-brand {
+  color: #E8AA42; }
+  .navbar-brand:hover {
+    color: #E8AA42; }
+
+.nav-link {
+  color: #E8AA42;
+  margin: 1px 1rem;
+  padding: auto; }
+  .nav-link:hover {
+    background-color: #E8AA42; }
+
+.dropdown-menu {
+  color: #1F4690;
+  background-color: #E8AA42; }
+
+.active {
+  background-color: #E8AA42; }
+
+/* ----footer---- */
+.footer {
+  background-color: #231955;
+  margin-top: 40px; }
+  .footer__frase {
+    color: whitesmoke;
+    text-align: center; }
+  .footer__lista {
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content; }
+    .footer__lista li {
+      list-style: none;
+      display: inline-block;
+      margin: 12px; }
+  .footer__redes a:hover {
+    border-color: #E8AA42; }
+
+/* boton whatsapp */
+.whatsappImage {
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px; }
+
+/* animaciones */
+.animacion {
+  transition: transform 1s; }
+  .animacion:hover {
+    transform: scale(1.2); }
+
+.animacionServicios {
+  transition: transform 0.8s; }
+  .animacionServicios:hover {
+    transform: scale(0.98); }
+
+/* index */
+.col img {
+  width: 100%; }
+
+.padd {
+  padding: 20px; }
+
+.mensajeIndex {
+  font-size: 15px;
+  padding: 5px;
+  background-color: #231955;
+  color: #E8AA42; }
+  .mensajeIndex:hover {
+    background-color: #E8AA42;
+    color: #231955; }
+
+/* sobre nosotros */
+.carousel-item img {
+  object-fit: cover; }
+
+.contenedorVideo {
+  width: 80%;
+  height: fit-content;
+  margin: auto; }
+
+/* servicios */
+.mainServicios {
+  margin-top: 30px; }
+
+/* nuestro trabajo */
+.imagen_centrada {
+  text-align: center; }
+
+.galeria img {
+  width: 350px;
+  height: 17rem;
+  object-fit: cover; }
+  .galeria img:hover {
+    border: solid #E8AA42; }
+
+/* contacto */
+.text-center {
+  margin-top: 30px; }
+
+iframe {
+  display: flex;
+  margin: auto;
+  padding-bottom: 30px; }

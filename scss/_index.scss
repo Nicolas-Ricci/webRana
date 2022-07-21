@@ -1,0 +1,18 @@
+/* index */
+.col img{
+    width: 100%
+}
+.padd{
+    padding: 20px;
+}
+.mensajeIndex{
+    font-size: 15px;
+    padding: 5px;
+    background-color: #231955;
+    color: #E8AA42;
+
+    &:hover{
+        background-color: #E8AA42;
+        color: #231955;        
+    }
+}
