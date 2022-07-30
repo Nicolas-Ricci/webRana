@@ -4,44 +4,46 @@
     font-family: 'Roboto', sans-serif; 
 } 
 body{
-    background-image: $imagen-de-fondo;
-    background-repeat: repeat;
+    background:{
+        image: $imagen-de-fondo;
+        repeat: repeat;
+    }
 }
 /* barra de navegacion */
 .navBarra{
-    background-color: $color-principal;
+    background-color: map-get($colores,'color-principal');
 }
 .collapse{
     flex-grow: initial;
 }
 .navbar-brand{
-    color: $color-secundario;
+    color: map-get($colores,'color-secundario');
     &:hover{
-        color: $color-secundario;      
+        color: map-get($colores,'color-secundario');
     }
 }
 .nav-link{
-    color: $color-secundario;
+    color: map-get($colores,'color-secundario');
     margin: 1px 1rem;
     padding: auto;
     &:hover{
-        background-color: $color-secundario;        
+        background-color: map-get($colores,'color-secundario');  
     }
 }
 .dropdown-menu{
     color: #1F4690;
-    background-color: $color-secundario;
+    background-color: map-get($colores,'color-secundario');
 }
 
 .active{
-    background-color: $color-secundario
+    background-color: map-get($colores,'color-secundario');
 }
 /* ----footer---- */
 .footer{
-    background-color: $color-principal;
+    background-color: map-get($colores,'color-principal');
     margin-top: 40px;
     &__frase{
-        color: whitesmoke;
+        color: map-get($colores,'color-alterno');
         text-align: center;        
     }
     &__lista{
@@ -55,7 +57,7 @@ body{
         }        
     }
     &__redes a:hover{
-        border-color:$color-secundario;        
+        border-color:map-get($colores,'color-secundario')
     }
 }
 /* boton whatsapp */

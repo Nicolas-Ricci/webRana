@@ -1,5 +1,8 @@
-$color-principal:#231955;
-$color-secundario: #E8AA42;
+$colores:(
+    "color-principal":#231955,
+    "color-secundario":#E8AA42,
+    "color-alterno": whitesmoke,
+);
 
 $imagen-de-fondo: url(/images/fondoWeb.jpg);
 

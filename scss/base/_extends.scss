@@ -1,0 +1,25 @@
+%parrafo{
+    font:{
+        size: 22px;
+        family: cursive;
+    }
+}
+%imagen{
+    height: 200px;
+    width: 180px;
+
+}
+
+/* mixins */
+@mixin mensajeIndex ($bgColor, $textColor){
+    font-size: 15px;
+    padding: 5px;
+    background-color: $bgColor;
+    color: $textColor;
+
+    &:hover{
+        background-color: $textColor;
+        color: $bgColor;        
+    }
+}
+

@@ -1,0 +1,27 @@
+/* parrafos */
+@import './base/extends';
+
+.parrafoPrincipal{
+    @extend %parrafo;
+    text-align: left;
+    &:hover{
+        color: map-get($colores,'color-secundario');
+        border: solid map-get($colores,'color-secundario');
+    }
+}
+.parrafoDerecha{
+    @extend %parrafo;
+    text-align: right;
+    &:hover{
+        color: map-get($colores,'color-principal');
+        background-color: map-get($colores,'color-secundario');
+    }    
+}
+.parrafoIzquierda{
+    @extend %parrafo;
+    text-align: left;
+    &:hover{
+        color: whitesmoke;
+        background-color: map-get($colores,'color-principal');
+    }    
+}

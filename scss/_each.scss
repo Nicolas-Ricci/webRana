@@ -1,0 +1,11 @@
+$redesSociales:(
+    "facebook" : #1877f2, 
+    "instagram" : #9E37B8,
+    "twitter" : #1DA1F2,    
+    "linkedin" : #0073b1,
+);
+@each $key, $value in $redesSociales{
+    .#{$key}{
+        background-color: $value
+    }
+}

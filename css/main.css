@@ -1,3 +1,8 @@
+.parrafoPrincipal, .parrafoDerecha, .parrafoIzquierda {
+  font-size: 22px;
+  font-family: cursive; }
+
+/* mixins */
 * {
   margin: o;
   padding: 0;
@@ -76,6 +81,11 @@ body {
 .padd {
   padding: 20px; }
 
+.parrafoPrincipal, .parrafoDerecha, .parrafoIzquierda {
+  font-size: 22px;
+  font-family: cursive; }
+
+/* mixins */
 .mensajeIndex {
   font-size: 15px;
   padding: 5px;
@@ -98,6 +108,9 @@ body {
 .mainServicios {
   margin-top: 30px; }
 
+.tituloServicios {
+  text-align: center; }
+
 /* nuestro trabajo */
 .imagen_centrada {
   text-align: center; }
@@ -117,3 +130,39 @@ iframe {
   display: flex;
   margin: auto;
   padding-bottom: 30px; }
+
+/* parrafos */
+.parrafoPrincipal, .parrafoDerecha, .parrafoIzquierda {
+  font-size: 22px;
+  font-family: cursive; }
+
+/* mixins */
+.parrafoPrincipal {
+  text-align: left; }
+  .parrafoPrincipal:hover {
+    color: #E8AA42;
+    border: solid #E8AA42; }
+
+.parrafoDerecha {
+  text-align: right; }
+  .parrafoDerecha:hover {
+    color: #231955;
+    background-color: #E8AA42; }
+
+.parrafoIzquierda {
+  text-align: left; }
+  .parrafoIzquierda:hover {
+    color: whitesmoke;
+    background-color: #231955; }
+
+.facebook {
+  background-color: #1877f2; }
+
+.instagram {
+  background-color: #9E37B8; }
+
+.twitter {
+  background-color: #1DA1F2; }
+
+.linkedin {
+  background-color: #0073b1; }
